@@ -1,0 +1,54 @@
+/* This is the formatting for my we4bsite*/ 
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #d5edff;
+}
+img{
+    width:20%;
+}
+h1{
+    text-align: center;
+    color: #120951;
+}
+h1, footer{
+    text-align: center;
+}
+nav{
+    background-color: #efe699;
+}
+nav a{
+    line-height: 2em;
+    color: #120951;
+    padding: 0 2em;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #23138a
+}
+ul{
+    display:flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+
+}
+footer{
+    background-color: #efe699;
+    line-height: 4em;
+    color: #120951;
+}
+main, footer {
+    margin: 0 auto;
+    padding: .25em 1.5em .5em;
+    width: 80%;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h2{
+    color:#120951;
+}
